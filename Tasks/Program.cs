@@ -6,9 +6,15 @@ namespace Tasks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Константин!");
-            int num = Task_1.StringToNumber("22");
+            string result;
+            Console.WriteLine("Hello Константин!\nenter number:");
+            int num = Task_1.StringToNumber(Console.ReadLine());
             Console.WriteLine("The number = {0}",num);
+            // Task_2
+            int sheeps = Task_2.CountSheeps(Task_2.Sheeps);
+            Console.WriteLine("Sheeps = {0}", sheeps);
+            result = Converter.dnaToRna("UfHUNNKNUUUU");
+            Console.WriteLine(result);
         }
     }
 }
