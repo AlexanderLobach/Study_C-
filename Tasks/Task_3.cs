@@ -16,8 +16,9 @@ public class Converter
             }
             i++;
         }
-        str = new string(char_arr);
-        Console.WriteLine(str.Length);
+       // str = new string(char_arr);
+       // Console.WriteLine(str.Length);
+       str = str.Replace('U','T'); //замена символа в строке
         return str;
     }
 }
