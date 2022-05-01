@@ -20,6 +20,11 @@ namespace Tasks
             Task_6.Liters(1.0);
             Task_7.TotalPoints(new[]{"1:1", "2:2", "3:3", "4:4", "2:2", "3:3", "4:4", "3:3", "4:4", "4:4" });
             Task_8.Solution("Kozel");
+            Task_9.Sum(125);
+            // Task_10 solution;
+            int a;
+            int z = Task_10.Test(out a);
+            Console.WriteLine(a+z);
         }
     }
 }
