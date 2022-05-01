@@ -17,7 +17,7 @@ namespace Tasks
             Console.WriteLine(result);
             Task_4.Opposite(12);
             Task_5.MakeToUpper("branch");
-            Task_6.Liters(6.899);
+            Task_6.Liters(1.0);
         }
     }
 }
