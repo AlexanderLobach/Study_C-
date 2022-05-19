@@ -25,6 +25,9 @@ namespace Tasks
             int a;
             int z = Task_10.Test(out a);
             Console.WriteLine(a+z);
+            Task_11 ivan = new Task_11();
+            ivan.Name = "Ivan";
+            ivan.PrintName();
         }
     }
 }
